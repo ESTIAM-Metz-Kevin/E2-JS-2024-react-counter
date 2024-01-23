@@ -1,0 +1,25 @@
+.counter {
+  background: #15141a;
+  padding: 8px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.counter p {
+  font-size: 24px;
+  text-align: left;
+  margin: 0;
+}
+
+.counter--value {
+  font-size: 48px;
+}
+
+.counter--actions {
+  display: flex;
+  column-gap: 8px;
+}
+
+.counter--actions > button {
+  flex-grow: 1;
+}
